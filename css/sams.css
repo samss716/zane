@@ -131,6 +131,40 @@ footer{
     }
 }
 
+/* iphone 13 */
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    /* Center the header title "Zane" */
+    header .center h1 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 2.5em; /* Adjust font size as needed */
+    }
+
+    /* Adjust video position to sit lower in the middle */
+    main {
+        display: flex;
+        align-items: center; /* Center vertically */
+        justify-content: center; /* Center horizontally */
+        margin-top: 40px; /* Push video slightly down */
+    }
+
+    main .vid {
+        max-width: 90%; /* Ensure video fits screen width */
+        height: auto;
+    }
+
+    /* Ensure footer stays at the bottom */
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f4f4f4; /* Optional footer styling */
+        padding: 10px 0;
+    }
+}
+
 /* iPhone 12 Pro Max, iPhone 14 Pro Max */
 @media only screen and (min-width: 428px) and (max-width: 820px) {
     h1 {
