@@ -1,0 +1,123 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  display: flex;
+}
+
+.title{
+  margin:3% 5%;
+  position: absolute;
+}
+
+.vid-container{
+  display: flex;
+  width:100%;
+  margin-right: 15%;
+}
+
+button{
+  display: flex;
+  width:100%;
+  border-style: none;
+}
+
+nav{
+  margin-top: 20%;
+  margin-left: 4%;
+  width:15%;
+  position: relative;
+}
+
+.nav-container{
+  font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 300px; /* Adjust card size */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card:hover{
+  transform: scale(1.15);
+}
+
+.grid-vid {
+  width: 100%; 
+  height: auto;
+}
+
+/* Card content */
+.card-content {
+  padding: 3rem;
+  text-align: center;
+  font-family: "Neucha", cursive;
+}
+
+.card-content h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+}
+
+.card-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.link{ /*fix this */
+  text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top:1rem;
+    row-gap: 3rem;
+  }
+
+  .grid-container-web{
+    display: flex;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr); 
+    padding-top:1rem;
+  }
+
+  footer{
+    margin: 0;
+    padding-left:15%;
+    padding-right: 15%;
+    font-size:larger;
+    font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
+  }
+  
+  .location{
+    display: inline-block;
+  }
+  .socials{
+    float: inline-end;
+    padding-top: 2%;
+  }
+  
+
+  @media only screen and (max-width: 768px){
+    nav{
+      margin-top: 0.5%;
+      width: 30%;
+    }
+  }
