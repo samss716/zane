@@ -1,0 +1,106 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.neucha-regular {
+    font-family: "Neucha", cursive;
+    font-weight: 500;
+    font-style: normal;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding:0 4rem;
+}
+
+.left-container{
+    align-items: flex-start;
+    gap: 2rem;
+    font-family: "Neucha", cursive;
+}
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+.abt-vid{
+    width: 100%;
+}
+
+.right-container{
+    max-width:50%;
+    margin:0 1rem;
+}
+
+.grid-container{
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+/*
+.grid-container > div:nth-child(2){
+    grid-column: span 2;
+}
+
+.grid-container > div:nth-child(4){
+    grid-column: span 2;
+}
+*/
+
+
+.pfp{
+    max-width: 70%;
+    max-height:70%;
+    margin: 2rem 2rem;
+    border-radius: 80%;
+    box-shadow: 100%;
+}
+
+.pfp:hover{
+    transform: scale(1.20);
+}
+
+.about-p{
+    width: 100%; /*can change to auto to get rid of overflow */
+    margin-top: 8%;
+    margin-left: 0%;
+    padding: 2rem 1rem;
+    text-align: center;
+    text-overflow: wrap;
+    border-style: dashed;
+}
+
+.more-p{
+    width:80%;
+    padding: 2rem 1rem;
+    margin-left: 4rem;
+    text-align: center;
+    border-style: dashed;
+}
+
+.exp-h{
+    text-align: center;
+}
+
+.exp-p{
+    width: 70%;
+    margin-left: 10%;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-style: dashed;
+}
+
+.drums{
+    width:75%;
+    margin: 2rem 4rem;
+}
+
+.other-info{
+    text-align: center;
+    font-size: larger;
+    border-style:dashed;
+    margin-top: 2rem;
+    width: 80%;
+}
