@@ -182,7 +182,6 @@ nav{
         display: block;
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;/* Space from top and left */
-        margin: 10px 10px 0;
     }
 
     /* Navigation adjustments */
@@ -201,7 +200,7 @@ nav{
 
     /* Main video adjustments */
     main .vid-container {
-        margin-top: 20px; /* Add spacing from navigation */
+        margin-top: 50px; /* Add spacing from navigation */
         display: flex;
         justify-content: center;
     }
