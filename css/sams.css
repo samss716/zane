@@ -160,9 +160,8 @@ footer{
         position: fixed;
         bottom: 0;
         left: 0;
-        width: auto;
-        text-align: center;
-     /*   background-color: #f4f4f4; *//* Optional footer styling */
+        width: 50%;
+        text-align: center;/* Optional footer styling */
         padding: 10px 0;
     }
 }
