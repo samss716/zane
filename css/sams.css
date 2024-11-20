@@ -143,10 +143,10 @@ footer{
 /* might need to fix*/
     /* Adjust video position to sit lower in the middle */
     main {
-        display: inline-flex;
+        display: flex;
         align-items: center; /* Center vertically */
         justify-content: center; /* Center horizontally */
-        margin-top: 40px; /* Push video slightly down */
+      /*  margin-top: 40px;*/ /* Push video slightly down */
     }
 
     main .vid {
