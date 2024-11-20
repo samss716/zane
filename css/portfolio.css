@@ -202,7 +202,7 @@ nav{
         flex-direction: column;
         align-items: flex-start; /* Align buttons to the left */
          /* Space to the left of the screen */
-        margin-bottom: 10px; /* Add spacing below the nav */
+        margin-bottom: 8px; /* Add spacing below the nav */
         z-index: 1; /* Ensure nav does not overlap video */
     }
     /* Navigation adjustments */
@@ -222,12 +222,12 @@ nav{
 
     /* Main video adjustments */
     main .vid-container { /* Add spacing from navigation */
-        display: inline-block;
-        margin-left: 10px;
+        display: flex;
+    /*    margin-left: 10px;*/
     }
 
     main .vid-container .vid {
-        width: 90%; /* Scale video to fit better on smaller screen */
+        width: 70%; /* Scale video to fit better on smaller screen */
         height: auto;
     }
 
