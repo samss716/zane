@@ -179,9 +179,10 @@ nav{
 
     /* Title adjustments */
     .title {
-        position:absolute;
+        display: block;
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;/* Space from top and left */
+        margin: 10px 10px 0;
     }
 
     /* Navigation adjustments */
