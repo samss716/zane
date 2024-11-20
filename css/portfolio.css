@@ -115,9 +115,157 @@ nav{
   }
   
 
-  @media only screen and (max-width: 768px){
-    nav{
-      margin-top: 0.5%;
-      width: 30%;
+ /* General Mobile Devices */
+@media only screen and (max-width: 480px) {
+    header .center h1 {
+        font-size: 1.8em;
+        margin: 0 auto;
+        text-align: center;
     }
-  }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .vid-container .vid {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .grid-item {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+    footer .socials {
+        margin-top: 10px;
+    }
+
+    footer .socials i {
+        font-size: 24px;
+    }
+}
+
+/* Specific Query for iPhone 13 (390px width x 844px height) */
+@media only screen and (max-width: 390px) and (max-height: 844px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header .center h1 {
+        font-size: 2em;
+        margin: 0 auto;
+    }
+
+    main .vid-container {
+        margin-top: 20px;
+    }
+
+    main .vid-container .vid {
+        width: 90%;
+        height: auto;
+    }
+
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 0 10px;
+    }
+
+    .grid-item {
+        width: 100%;
+    }
+
+    footer {
+        position: fixed; /* Sticks footer to the bottom */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #f4f4f4;
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer .socials {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    footer .socials i {
+        font-size: 20px;
+    }
+}
+
+/* Tablets */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    header .center h1 {
+        font-size: 2.5em;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .grid-item {
+        width: auto;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    header .center h1 {
+        font-size: 3em;
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+}
