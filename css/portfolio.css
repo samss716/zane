@@ -179,10 +179,9 @@ nav{
 
     /* Title adjustments */
     .title {
-        display: block;
+        display: flex;
         font-size: 1.5em; /* Adjust for smaller size */
-        text-align: left;
-        margin: 10px 0 10px 10px; /* Space from top and left */
+        text-align: left;/* Space from top and left */
     }
 
     /* Navigation adjustments */
@@ -207,7 +206,7 @@ nav{
     }
 
     main .vid-container .vid {
-        width: 85%; /* Scale video to fit better on smaller screen */
+        width: 90%; /* Scale video to fit better on smaller screen */
         height: auto;
     }
 
@@ -221,8 +220,8 @@ nav{
     }
 
     .grid-item {
-        width: 90%; /* Make grid items slightly smaller */
-        max-width: 300px; /* Limit maximum width */
+        width: 80%; /* Make grid items slightly smaller */
+        max-width: 200px; /* Limit maximum width */
     }
 
     .grid-item .card-content h3 {
@@ -235,12 +234,11 @@ nav{
 
     /* Footer adjustments */
     footer {
-        position: fixed; /* Stick footer to the bottom */
+        position: flex; /* Stick footer to the bottom */
         bottom: 0;
         left: 0;
         width: 100%;
         text-align: center;
-        background-color: #f4f4f4;
         padding: 10px;
     }
 
