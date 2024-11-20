@@ -179,7 +179,7 @@ nav{
 
     /* Title adjustments */
     .title {
-        display: flex;
+        position:absolute;
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;/* Space from top and left */
     }
@@ -194,8 +194,8 @@ nav{
     }
 
     .nav-container button {
-        font-size: 0.9em; /* Slightly smaller text */
-        padding: 5px 10px; /* Adjust padding for smaller buttons */
+        font-size: 0.5em; /* Slightly smaller text */
+       /* Adjust padding for smaller buttons */
     }
 
     /* Main video adjustments */
@@ -220,6 +220,7 @@ nav{
     }
 
     .grid-item {
+        margin-right: 2em;
         width: 80%; /* Make grid items slightly smaller */
         max-width: 200px; /* Limit maximum width */
     }
