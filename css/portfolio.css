@@ -176,6 +176,13 @@ nav{
         margin: 0 auto;
     }
 
+  .title {
+        position: relative;
+        font-size: 1.5em; /* Adjust for smaller size */
+        text-align: left;
+        margin: 10px 0 0 10px; /* Space from top and left */
+    }
+
     main .vid-container {
         margin-top: 20px;
     }
