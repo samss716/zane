@@ -150,7 +150,7 @@ footer{
     }
 
     main .vid {
-        margin-top: 20px;
+        margin-top: 40px;
         max-width: 90%; /* Ensure video fits screen width */
         height: auto;
     }
@@ -159,16 +159,14 @@ footer{
     footer {
         position: flex; /* Stick footer to the bottom */
         bottom: 0;
-        left: 0;
-        width: 100%; /* Span the entire screen width */
+        left: 0;/* Span the entire screen width */
         text-align: center;
     }
 
     /* Adjust footer content (e.g., Instagram icon) */
     footer .socials {
         display: flex;
-        justify-content: center;
-        gap: 10px; /* Space between icons */
+        justify-content: center; /* Space between icons */
     }
 
     footer .socials a {
