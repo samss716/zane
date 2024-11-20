@@ -146,10 +146,11 @@ footer{
         display: flex;
         align-items: center; /* Center vertically */
         justify-content: center; /* Center horizontally */
-      /*  margin-top: 40px;*/ /* Push video slightly down */
+       /* Push video slightly down */
     }
 
     main .vid {
+        margin-top: 20px;
         max-width: 90%; /* Ensure video fits screen width */
         height: auto;
     }
@@ -159,9 +160,9 @@ footer{
         position: fixed;
         bottom: 0;
         left: 0;
-        width: 100%;
+        width: auto;
         text-align: center;
-        background-color: #f4f4f4; /* Optional footer styling */
+     /*   background-color: #f4f4f4; *//* Optional footer styling */
         padding: 10px 0;
     }
 }
