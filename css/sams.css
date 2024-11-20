@@ -157,12 +157,11 @@ footer{
 
     /* Ensure footer stays at the bottom */
     footer {
-        position: fixed; /* Stick footer to the bottom */
+        position: flex; /* Stick footer to the bottom */
         bottom: 0;
         left: 0;
         width: 100%; /* Span the entire screen width */
         text-align: center;
-        padding: 10px 0; /* Optional: Footer background color */
     }
 
     /* Adjust footer content (e.g., Instagram icon) */
