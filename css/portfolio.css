@@ -183,13 +183,22 @@ nav{
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;/* Space from top and left */
         /* Ensure space between title and nav */
+        margin-left: 10px; /* Align title to the left */
+        margin-bottom: 10px
         position: relative; /* Prevent overlap */
-        z-index: 1;
+    }
+
+   /* Navigation and video layout */
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10px; /* Add some spacing to the left */
     }
 
 
   nav {
-        display: flex;
+        display: inline-block;
         flex-direction: column;
         align-items: flex-start; /* Align buttons to the left */
          /* Space to the left of the screen */
@@ -200,25 +209,25 @@ nav{
     .nav-container {
         display: flex;
         flex-direction: column; /* Stack buttons vertically */
-        align-items: flex-start; /* Align to the left */
+   /*     align-items: flex-start;*/ /* Align to the left */
         gap: 5px; /* Space between buttons */
         margin-left: 10px; /* Align closer to the left edge */
     }
 
     .nav-container button {
         font-size: 0.7em; /* Slightly smaller text */
+        padding: 5px 10px;
        /* Adjust padding for smaller buttons */
     }
 
     /* Main video adjustments */
-    main .vid-container {
-        margin-top: 10px; /* Add spacing from navigation */
-        display: flex;
-        justify-content: center;
+    main .vid-container { /* Add spacing from navigation */
+        display: inline-block;
+        margin-left: 10px;
     }
 
     main .vid-container .vid {
-        width: 100%; /* Scale video to fit better on smaller screen */
+        width: 90%; /* Scale video to fit better on smaller screen */
         height: auto;
     }
 
@@ -232,8 +241,8 @@ nav{
     }
 
     .grid-item {
-        margin-right: 2em;
-        width: 50%; /* Make grid items slightly smaller */
+        width: 90%; /* Make grid items slightly smaller */
+        text-align: center;
       /* Limit maximum width */
     }
 
