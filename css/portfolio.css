@@ -164,6 +164,7 @@ nav{
 
 /* Specific Query for iPhone 13 (390px width x 844px height) */
 @media only screen and (max-width: 390px) and (max-height: 844px) {
+    /* Header adjustments */
     header {
         display: flex;
         flex-direction: column;
@@ -176,51 +177,86 @@ nav{
         margin: 0 auto;
     }
 
-  .title {
+    /* Title adjustments */
+    .title {
         display: block;
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;
-        margin: 10px 0 0 10px; /* Space from top and left */
+        margin: 10px 0 10px 10px; /* Space from top and left */
     }
 
+    /* Navigation adjustments */
+    .nav-container {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: flex-start; /* Align to the left */
+        gap: 5px; /* Space between buttons */
+        margin-left: 10px; /* Align closer to the left edge */
+    }
+
+    .nav-container button {
+        font-size: 0.9em; /* Slightly smaller text */
+        padding: 5px 10px; /* Adjust padding for smaller buttons */
+    }
+
+    /* Main video adjustments */
     main .vid-container {
-        margin-top: 20px;
+        margin-top: 20px; /* Add spacing from navigation */
+        display: flex;
+        justify-content: center;
     }
 
     main .vid-container .vid {
-        width: 90%;
+        width: 85%; /* Scale video to fit better on smaller screen */
         height: auto;
     }
 
+    /* Grid container adjustments */
     .grid-container {
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center grid items */
+        gap: 20px; /* Space between grid items */
+        margin-top: 20px;
     }
 
     .grid-item {
-        width: 80%;
-        align-items: center;
+        width: 90%; /* Make grid items slightly smaller */
+        max-width: 300px; /* Limit maximum width */
     }
 
+    .grid-item .card-content h3 {
+        font-size: 1em; /* Adjust grid item title size */
+    }
+
+    .grid-item .card-content p {
+        font-size: 0.9em; /* Adjust grid item description size */
+    }
+
+    /* Footer adjustments */
     footer {
-        position: flex; /* Sticks footer to the bottom */
+        position: fixed; /* Stick footer to the bottom */
         bottom: 0;
         left: 0;
+        width: 100%;
         text-align: center;
+        background-color: #f4f4f4;
+        padding: 10px;
     }
 
     footer .socials {
         margin-top: 10px;
         display: flex;
         justify-content: center;
+        gap: 10px; /* Space between icons */
     }
 
     footer .socials i {
-        font-size: 20px;
+        font-size: 20px; /* Adjust icon size */
     }
 }
+
+
 
 /* Tablets */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
