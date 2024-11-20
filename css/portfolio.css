@@ -192,7 +192,7 @@ nav{
         display: flex;
         flex-direction: column;
         align-items: flex-start; /* Align buttons to the left */
-        margin-left: 10px; /* Space to the left of the screen */
+         /* Space to the left of the screen */
         margin-bottom: 10px; /* Add spacing below the nav */
         z-index: 1; /* Ensure nav does not overlap video */
     }
@@ -206,25 +206,25 @@ nav{
     }
 
     .nav-container button {
-        font-size: 0.5em; /* Slightly smaller text */
+        font-size: 0.7em; /* Slightly smaller text */
        /* Adjust padding for smaller buttons */
     }
 
     /* Main video adjustments */
     main .vid-container {
-        margin-top: 50px; /* Add spacing from navigation */
+        margin-top: 10px; /* Add spacing from navigation */
         display: flex;
         justify-content: center;
     }
 
     main .vid-container .vid {
-        width: 90%; /* Scale video to fit better on smaller screen */
+        width: 100%; /* Scale video to fit better on smaller screen */
         height: auto;
     }
 
     /* Grid container adjustments */
     .grid-container {
-        display: flex;
+        display: block;
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center grid items */
         gap: 20px; /* Space between grid items */
@@ -234,7 +234,7 @@ nav{
     .grid-item {
         margin-right: 2em;
         width: 50%; /* Make grid items slightly smaller */
-        max-width: 150px; /* Limit maximum width */
+      /* Limit maximum width */
     }
 
     .grid-item .card-content h3 {
