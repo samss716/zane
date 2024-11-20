@@ -182,11 +182,20 @@ nav{
         display: block;
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;/* Space from top and left */
-        margin: 10px 10px 20px; /* Ensure space between title and nav */
+        /* Ensure space between title and nav */
         position: relative; /* Prevent overlap */
         z-index: 1;
     }
 
+
+  nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align buttons to the left */
+        margin-left: 10px; /* Space to the left of the screen */
+        margin-bottom: 10px; /* Add spacing below the nav */
+        z-index: 1; /* Ensure nav does not overlap video */
+    }
     /* Navigation adjustments */
     .nav-container {
         display: flex;
