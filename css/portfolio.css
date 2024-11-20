@@ -203,7 +203,7 @@ nav{
 
     /* Main video adjustments */
     main .vid-container {
-        margin-top: 20px; /* Add spacing from navigation */
+        margin-top: 50px; /* Add spacing from navigation */
         display: flex;
         justify-content: center;
     }
@@ -224,8 +224,8 @@ nav{
 
     .grid-item {
         margin-right: 2em;
-        width: 80%; /* Make grid items slightly smaller */
-        max-width: 200px; /* Limit maximum width */
+        width: 50%; /* Make grid items slightly smaller */
+        max-width: 150px; /* Limit maximum width */
     }
 
     .grid-item .card-content h3 {
