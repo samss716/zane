@@ -210,12 +210,11 @@ footer {
         align-items: flex-start;
     }
 
-
 nav {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 40%; /* Use more of the screen width */
+    width: auto; /* Use more of the screen width */
   }
 
   .nav-container {
@@ -242,7 +241,7 @@ nav {
     /* Main video adjustments */
     main .vid-container { /* Add spacing from navigation */
         display: flex;
-        width: 60%;
+        width: auto;
     }
 
     main .vid-container .vid {
@@ -255,11 +254,12 @@ nav {
         display: block;
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center grid items */
+        justify-content:center;
         gap: 20px; /* Space between grid items */
     }
 
     .grid-item {
-        width: 90%; /* Make grid items slightly smaller */
+        width: 80%; /* Make grid items slightly smaller */
         text-align: center;
       /* Limit maximum width */
     }
@@ -283,7 +283,6 @@ nav {
     }
 
     footer .socials {
-        margin-top: 10px;
         display: flex;
         justify-content: center;
         gap: 10px; /* Space between icons */
