@@ -170,7 +170,6 @@ nav{
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;/* Space from top and left */
         /* Ensure space between title and nav */
-      padding: 0 0.75rem;
         position: relative; /* Prevent overlap */
     }
 
@@ -179,6 +178,8 @@ nav{
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        margin: 0;
+        padding: 0;
     }
 
 nav {
@@ -226,6 +227,8 @@ nav {
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Center grid items */
         justify-content:center;
+        margin-top: 0;
+        padding-top: 0;
         gap: 20px; /* Space between grid items */
     }
 
