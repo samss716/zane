@@ -108,7 +108,7 @@ nav{
     grid-template-columns: repeat(3, 2fr); 
     padding-top:1rem;
   }
-
+/*
 footer{
   margin: 0;
   padding: 0 15%;
@@ -126,7 +126,7 @@ footer{
   float: inline-end;
   padding: 1%;
 }
-/*
+
   footer{
     margin: 0;
     padding-left:15%;
