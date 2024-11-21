@@ -109,26 +109,6 @@ nav{
     padding-top:1rem;
   }
 
-footer {
-  max-width: 80%;
-  font-size: larger;
-  font-family: "Neucha", cursive, 'Courier New', Courier, monospace;
-  text-align: center; /* Centers text inside the footer */
-}
-
-.location, .socials {
-  display: flex;
-  justify-content: center; /* Center the content horizontally */
-  align-items: center; /* Align vertically if necessary */
-  gap: 1rem; /* Add spacing between items */
-}
-
-.socials a {
-  padding: 0.5rem; /* Add spacing around social icons */
-  text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Match the footer text color */
-}
-
  /* General Mobile Devices */
 @media only screen and (max-width: 480px) {
     header .center h1 {
