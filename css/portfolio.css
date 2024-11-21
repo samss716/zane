@@ -26,11 +26,9 @@ button{
 }
 
 nav{
-  flex-direction: row;
   margin-top: 20%;
   margin-left: 4%;
   width:15%;
-  position: relative;
 }
 
 .nav-container{
