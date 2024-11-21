@@ -38,7 +38,7 @@ nav{
   width: 100%; /* Ensures buttons take the full width of the container */
   padding: 0.5rem;
   border: none;
-  background-color: #D3D3D3; /* Add a background color for styling */
+  background-color: #f0f0f0; /* Add a background color for styling */
   cursor: pointer;
   text-align: center;
   transition: background-color 0.3s ease;
