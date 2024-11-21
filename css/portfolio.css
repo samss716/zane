@@ -227,6 +227,37 @@ footer{
     }
 
 
+nav {
+    margin-top: 10%; /* Adjust for smaller screen */
+    margin-left: 2%; /* Reduce left margin for better fit */
+    width: 90%; /* Use more of the screen width */
+    position: relative;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 0.5rem; /* Adjust spacing between buttons for smaller screen */
+    font-size: 1.2em; /* Reduce font size slightly for better fit */
+  }
+
+  .nav-container button {
+    width: 100%; /* Ensure buttons span the full container width */
+    padding: 0.75rem; /* Adjust padding for touch-friendly buttons */
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-container button:hover {
+    background-color: #ddd; /* Keep hover effect consistent */
+  }
+
+  
+
+ /* 
   nav {
         display: inline-flex;
         flex-direction: column;
@@ -249,6 +280,8 @@ footer{
         padding: 5px 10px;
        /* Adjust padding for smaller buttons */
     }
+*/
+
 
     /* Main video adjustments */
     main .vid-container { /* Add spacing from navigation */
