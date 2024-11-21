@@ -108,41 +108,26 @@ nav{
     grid-template-columns: repeat(3, 2fr); 
     padding-top:1rem;
   }
-/*
-footer{
-  margin: 0;
-  padding: 0 15%;
+
+footer {
+  margin: 0 auto; /* Center the footer */
+  padding: 1rem 15%; /* Adjust padding as needed */
   border-top: 1px solid rgb(208, 191, 168);
-  font-size:larger;
-  font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-family: "Neucha", cursive, 'Courier New', Courier, monospace;
+  text-align: center; /* Centers text inside the footer */
 }
 
-.location{
+.location, .socials {
   display: flex;
-  float: inline-start;
-}
-.socials{
-  display: flex;
-  float: inline-end;
-  padding: 1%;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Centers the content vertically if necessary */
+  gap: 1rem; /* Adds spacing between items */
 }
 
-  footer{
-    margin: 0;
-    padding-left:15%;
-    padding-right: 15%;
-    font-size:larger;
-    font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
-  }
-  
-  .location{
-    display: inline-block;
-  }
-  .socials{
-    float: inline-end;
-    padding-top: 2%;
-  }
-  */
+.socials a {
+  padding: 0.5rem; /* Adjust spacing around social icons */
+}
 
  /* General Mobile Devices */
 @media only screen and (max-width: 480px) {
@@ -229,6 +214,7 @@ footer{
 nav {
     display: inline-flex;
     flex-direction: column;
+    align-items: flex-start;
     margin-top: 10%; /* Adjust for smaller screen */
     width: 90%; /* Use more of the screen width */
     position: relative;
@@ -254,33 +240,6 @@ nav {
   .nav-container button:hover {
     background-color: #ddd; /* Keep hover effect consistent */
   }
-
-
- /* 
-  nav {
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start; /* Align buttons to the left */
-         /* Space to the left of the screen */
-        margin-bottom: 8px; /* Add spacing below the nav */
-        z-index: 1; /* Ensure nav does not overlap video */
-    }
-    /* Navigation adjustments */
-    .nav-container {
-        display: flex;
-        flex-direction: column; /* Stack buttons vertically */
-   /*     align-items: flex-start;*/ /* Align to the left */
-        gap: 5px; /* Space between buttons */
-        margin-left: 10px; /* Align closer to the left edge */
-    }
-
-    .nav-container button {
-        font-size: 0.7em; /* Slightly smaller text */
-        padding: 5px 10px;
-       /* Adjust padding for smaller buttons */
-    }
-*/
-
 
     /* Main video adjustments */
     main .vid-container { /* Add spacing from navigation */
