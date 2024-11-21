@@ -20,6 +20,7 @@ main{
 }
 
 button{
+  justidy-content:center;
   width:100%;
   border-style: none;
 }
@@ -30,6 +31,7 @@ nav{
   margin-left: 4%;
   width:15%;
   position: relative;
+  border-style:dashed;
 }
 
 .nav-container{
