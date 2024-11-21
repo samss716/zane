@@ -97,6 +97,24 @@ nav{
     grid-template-columns: repeat(3, 2fr); 
     padding-top:1rem;
   }
+
+footer{
+  margin: 0;
+  padding: 0 15%;
+  border-top: 1px solid rgb(208, 191, 168);
+  font-size:larger;
+  font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
+}
+
+.location{
+  display: flex;
+  float: inline-start;
+}
+.socials{
+  display: flex;
+  float: inline-end;
+  padding: 1%;
+}
 /*
   footer{
     margin: 0;
