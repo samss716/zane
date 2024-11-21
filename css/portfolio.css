@@ -167,7 +167,6 @@ nav{
 
     /* Title adjustments */
     .title {
-        display: block;
         font-size: 1.5em; /* Adjust for smaller size */
         text-align: left;/* Space from top and left */
         /* Ensure space between title and nav */
