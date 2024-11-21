@@ -20,7 +20,7 @@ main{
 }
 
 button{
-  display: inline-flex;
+  display: flex;
   width:100%;
   border-style: none;
 }
@@ -28,7 +28,7 @@ button{
 nav{
   margin-top: 20%;
   margin-left: 4%;
-  width:15%;
+  width:10%;
   position: relative;
 }
 
