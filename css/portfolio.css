@@ -35,7 +35,7 @@ nav{
 
 .nav-container{
   border-style: solid;
-  display:block;
+  height:50%;
   font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
   font-size: 1.5em;
 }
