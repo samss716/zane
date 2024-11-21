@@ -111,7 +111,7 @@ nav{
 
 footer {
   margin: 0 auto; /* Center the footer */
-  padding: 1rem 15%; /* Adjust padding as needed */
+  padding: 0 20%; /* Adjust padding as needed */
   border-top: 1px solid rgb(208, 191, 168);
   font-size: larger;
   font-family: "Neucha", cursive, 'Courier New', Courier, monospace;
@@ -206,18 +206,16 @@ footer {
    /* Navigation and video layout */
     main {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
     }
 
 
 nav {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-top: 10%; /* Adjust for smaller screen */
-    width: 90%; /* Use more of the screen width */
-    position: relative;
+    width: 40%; /* Use more of the screen width */
   }
 
   .nav-container {
@@ -243,12 +241,12 @@ nav {
 
     /* Main video adjustments */
     main .vid-container { /* Add spacing from navigation */
-        display: inline-flex;
-       margin-left: 10px;
+        display: flex;
+        width: 60%;
     }
 
     main .vid-container .vid {
-        width: 70%; /* Scale video to fit better on smaller screen */
+        width: 100%; /* Scale video to fit better on smaller screen */
         height: auto;
     }
 
