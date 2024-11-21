@@ -110,8 +110,9 @@ nav{
   }
 
 footer {
+  max-width: 80%;
   margin: 0 auto; /* Center the footer */
-  padding: 0 20%; /* Adjust padding as needed */
+  padding: 1rem; /* Adjust padding as needed */
   border-top: 1px solid rgb(208, 191, 168);
   font-size: larger;
   font-family: "Neucha", cursive, 'Courier New', Courier, monospace;
@@ -120,13 +121,15 @@ footer {
 
 .location, .socials {
   display: flex;
-  justify-content: center; /* Centers the content horizontally */
-  align-items: center; /* Centers the content vertically if necessary */
-  gap: 1rem; /* Adds spacing between items */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Align vertically if necessary */
+  gap: 1rem; /* Add spacing between items */
 }
 
 .socials a {
-  padding: 0.5rem; /* Adjust spacing around social icons */
+  padding: 0.5rem; /* Add spacing around social icons */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Match the footer text color */
 }
 
  /* General Mobile Devices */
