@@ -223,13 +223,13 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-      /* Add some spacing to the left */
     }
 
 
 nav {
+    display: inline-flex;
+    flex-direction: column;
     margin-top: 10%; /* Adjust for smaller screen */
-    margin-left: 2%; /* Reduce left margin for better fit */
     width: 90%; /* Use more of the screen width */
     position: relative;
   }
@@ -255,7 +255,6 @@ nav {
     background-color: #ddd; /* Keep hover effect consistent */
   }
 
-  
 
  /* 
   nav {
