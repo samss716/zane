@@ -30,12 +30,9 @@ nav{
   margin-left: 4%;
   width:15%;
   position: relative;
-  border-style:dashed;
 }
 
 .nav-container{
-  border-style: solid;
-  height:50%;
   font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
   font-size: 1.5em;
 }
