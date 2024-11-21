@@ -79,7 +79,7 @@ footer{
   float: inline-end;
   padding: 1%;
 }
-
+/*
 .sams-intro-h1{
   font-size: larger;
   margin: 2rem 25%;
@@ -89,6 +89,7 @@ footer{
   width:50%;
   margin: 2rem 25%;
 }
+*/
 
 /* General iPhone responsiveness */
 @media only screen and (max-width: 480px) {
