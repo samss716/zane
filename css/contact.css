@@ -4,18 +4,14 @@
   box-sizing: border-box;
 }
 
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .sams-intro{
   width:50%;
   margin: 2rem 25%;
 }
 
 .contact-container {
+  display: flex;
+  align-items: center;
   justify-content: center;
   background: #f0f0f0;
   border-radius: 20px;
