@@ -23,6 +23,7 @@ main {
   padding: 30px;
   width: 100%;
   max-width: 600px;
+  overflow: hidden;
 }
 
 .contact-form h2 {
@@ -42,7 +43,7 @@ main {
   border: 1px solid #ddd;
   border-radius: 50px;
   font-size: 16px;
-  outline: #000000
+  outline: #000000;
   transition: border-color 0.3s ease;
 }
 
