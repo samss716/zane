@@ -4,15 +4,20 @@
   box-sizing: border-box;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sams-intro{
   width:50%;
   margin: 2rem 25%;
 }
 
 .contact-container {
-  align-item: center;
   justify-content: center;
-  background: #EFDECD;
+  background: #f0f0f0;
   border-radius: 20px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -41,7 +46,7 @@
 }
 
 .input-field:focus {
-  border-color: #007bff;
+  border-color: #black;
 }
 
 .message-field {
