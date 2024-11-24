@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.sams-intro{
+  width:50%;
+  margin: 2rem 25%;
+}
+
 .contact-container {
   background: #fff;
   border-radius: 20px;
