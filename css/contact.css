@@ -22,11 +22,12 @@ main {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   padding: 30px;
   width: 100%;
-  max-width: 400px;
+  max-width: 600px;
 }
 
 .contact-form h2 {
   text-align: center;
+  padding: 2rem;
   margin-bottom: 20px;
   color: #333;
 }
@@ -41,7 +42,7 @@ main {
   border: 1px solid #ddd;
   border-radius: 50px;
   font-size: 16px;
-  outline: none;
+  outline: #000000
   transition: border-color 0.3s ease;
 }
 
