@@ -27,7 +27,7 @@ main {
 
 .contact-form h2 {
   text-align: center;
-  padding: 2rem;
+  padding-top: 2rem;
   margin-bottom: 20px;
   color: #333;
 }
@@ -37,7 +37,7 @@ main {
 }
 
 .input-field {
-  width: 100%;
+  width: 85%;
   padding: 10px 15px;
   border: 1px solid #171717;
   border-radius: 50px;
@@ -46,7 +46,7 @@ main {
 }
 
 .input-field:focus {
-  border-color: #black;
+  border-color: #171717;
 }
 
 .message-field {
