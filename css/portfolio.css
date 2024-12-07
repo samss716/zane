@@ -100,7 +100,7 @@ nav{
     width:100%;
     display: grid;
     grid-template-columns: repeat(3, 2fr); 
-    padding-top:1rem;
+    padding-top:2rem;
   }
 
  /* General Mobile Devices */
