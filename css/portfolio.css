@@ -96,9 +96,7 @@ nav{
   }
 
   .grid-container-web{
-    display: flex;
-    align-items:center;
-    justify-content:center;
+    border-style: dotted;
     width:100%;
     display: grid;
     grid-template-columns: repeat(3, 2fr); 
