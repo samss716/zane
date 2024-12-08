@@ -110,10 +110,10 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  column-gap:2rem;
+  margin-left:2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  width: auto; /* Adjust card size */
+  width: 150px; /* Adjust card size */
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
