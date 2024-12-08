@@ -98,7 +98,7 @@ nav{
   .grid-container-web{
     display:flex;
     border-style: dotted;
-    width:100%;
+    width:80%;
     display: grid;
     grid-template-columns: repeat(3, 2fr); 
   }
