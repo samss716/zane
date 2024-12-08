@@ -96,11 +96,11 @@ nav{
   }
 
   .grid-container-web{
-    display:absolute;
     justify-content:center;
-    align-items:center
+    align-items:center;
     border-style: dotted;
     width:80%;
+    padding-left: 10;
     display: grid;
     grid-template-columns: repeat(3, 2fr); 
   }
