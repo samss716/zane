@@ -102,6 +102,19 @@ nav{
     grid-template-columns: repeat(3, 2fr); 
   }
 
+.card-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: auto; /* Adjust card size */
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
  /* General Mobile Devices */
 @media only screen and (max-width: 480px) {
     header .center h1 {
