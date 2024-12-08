@@ -103,7 +103,6 @@ nav{
     margin-left: 10%;
     display: grid;
     grid-template-columns: repeat(3, 2fr); 
-    row-gap: 3rem;
   }
 
 .card-web {
@@ -111,6 +110,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  column-gap:2rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   width: auto; /* Adjust card size */
