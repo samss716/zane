@@ -97,10 +97,11 @@ nav{
 
   .grid-container-web{
     display: flex;
+    align-items:center;
+    justify-content:center;
     width:100%;
     display: grid;
     grid-template-columns: repeat(3, 2fr); 
-    padding-top:2rem;
   }
 
  /* General Mobile Devices */
