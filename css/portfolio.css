@@ -96,6 +96,7 @@ nav{
   }
 
   .grid-container-web{
+    display:flex;
     border-style: dotted;
     width:100%;
     display: grid;
