@@ -105,31 +105,103 @@ ul{
     width: 100%;
 }
 
-@media (min-width: 768px) {
-    header {
-        flex-direction: row;
-    }
-
-    .left-header, .right-header {
-        flex-direction: row;
+@media (max-width: 600px) {
+    main {
+        flex-direction: column;
+        padding: 0 1rem;
     }
 
     .left-container, .right-container {
-        display: flex;
-        gap: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
 
     .grid-container {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
+    }
+
+    .about-p, .exp-p {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .pfp {
+        max-width: 60%;
+        margin: 1rem auto;
+    }
+
+    .drums {
+        width: 90%;
+        margin: 1rem auto;
+    }
+
+    .abt-vid {
+        width: 100%;
+    }
+
+    .other-info {
+        font-size: medium;
     }
 }
-
-@media (min-width: 1024px) {
-    .grid-container {
-        grid-template-columns: repeat(4, 1fr);
+@media (min-width: 601px) and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        padding: 0 2rem;
     }
 
     .left-container, .right-container {
-        padding: 20px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .pfp {
+        max-width: 80%;
+        margin: 1rem auto;
+    }
+
+    .about-p, .exp-p {
+        width: 80%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .drums {
+        width: 80%;
+        margin: 1rem auto;
+    }
+
+    .abt-vid {
+        width: 100%;
+    }
+}
+@media (min-width: 1025px) {
+    main {
+        flex-direction: row;
+        padding: 0 4rem;
+    }
+
+    .grid-container {
+        grid-template-columns: 30% 70%;
+    }
+
+    .about-p, .exp-p {
+        width: 70%;
+        margin: 0 auto;
+        padding: 2rem;
+    }
+
+    .pfp {
+        max-width: 70%;
+    }
+
+    .drums {
+        width: 75%;
+        margin: 2rem auto;
     }
 }
