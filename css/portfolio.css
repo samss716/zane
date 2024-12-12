@@ -101,7 +101,7 @@ nav{
     row-gap: 3rem;
   }
 
-  span:hover {
+  .span:hover {
   transform: translate(0, -5px);
   }
 
