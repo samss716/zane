@@ -104,3 +104,32 @@ ul{
     margin-top: 2rem;
     width: 100%;
 }
+
+@media (min-width: 768px) {
+    header {
+        flex-direction: row;
+    }
+
+    .left-header, .right-header {
+        flex-direction: row;
+    }
+
+    .left-container, .right-container {
+        display: flex;
+        gap: 20px;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .left-container, .right-container {
+        padding: 20px;
+    }
+}
