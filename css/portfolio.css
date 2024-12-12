@@ -101,6 +101,10 @@ nav{
     row-gap: 3rem;
   }
 
+  span:hover {
+  transform: translate(0, -5px);
+  }
+
   .grid-container-web{
     justify-content:center;
     align-items:center;
