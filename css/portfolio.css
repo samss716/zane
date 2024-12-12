@@ -100,7 +100,9 @@ nav{
     align-items:center;
     border-style: dotted;
     margin-left: 10%;
+    margin-right:10%;
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(3, 2fr); 
   }
 
