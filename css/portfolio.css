@@ -66,6 +66,10 @@ nav{
   transform: scale(1.15);
 }
 
+.card-web:hover{
+  transform: scale(1.15);
+}
+
 .grid-vid {
   width: 100%; 
   height: auto;
