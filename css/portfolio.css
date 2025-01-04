@@ -9,6 +9,7 @@ main{
 
 .title-web{
   margin:3% 5%;
+  display: flex;
   position: realtive;
   border-style:dashed;
 }
