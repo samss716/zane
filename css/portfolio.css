@@ -10,6 +10,7 @@ main{
 .title-web{
   margin:3% 5%;
   position: realtive;
+  border-style:dashed;
 }
 
 .vid-container{
@@ -114,7 +115,6 @@ nav{
     justify-content:center;
     align-items:center;
     border-style: dotted;
-    max-width: 90%;
     display:grid;
     grid-template-columns: repeat(3, 2fr); 
   }
