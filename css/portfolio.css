@@ -3,9 +3,8 @@ main{
 }
 
 .title{
-  margin:2% 5%;
+  margin:3% 5%;
   position: relative;
-  z-index:1;
 }
 
 .vid-container{
@@ -37,7 +36,6 @@ nav{
   cursor: pointer;
   text-align: center;
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  font-size: 1.5em;
 }
 
 .nav-container button:hover {
