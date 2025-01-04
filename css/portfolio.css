@@ -3,14 +3,9 @@ main{
 }
 
 .title{
-  margin:3% 5%;
-  position: absolute;
-}
-
-.web-title{
-  margin: 20px 0; 
-  text-align: center; 
-  font-size: 2rem; 
+  margin:2% 5%;
+  position: relative;
+  z-index:1;
 }
 
 .vid-container{
@@ -41,11 +36,13 @@ nav{
   background-color: #f0f0f0; /* Add a background color for styling */
   cursor: pointer;
   text-align: center;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 1.5em;
 }
 
 .nav-container button:hover {
   background-color: #ddd; /* Change color on hover*/
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .card {
