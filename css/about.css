@@ -94,14 +94,14 @@ ul{
 
 .drums{
     width:75%;
-    margin: 4rem 4rem;
+    border-style:solid;
+    margin: 2rem 4rem;
 }
 
 .other-info{
     text-align: center;
     font-size: larger;
     border-style:dashed;
-   /* margin-top: 2rem;*/
     width: 100%;
 }
 
