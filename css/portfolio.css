@@ -7,6 +7,11 @@ main{
   position: absolute;
 }
 
+.title-web{
+  margin:3% 5%;
+  position: realtive;
+}
+
 .vid-container{
   display: flex;
   width:100%;
@@ -109,7 +114,7 @@ nav{
     justify-content:center;
     align-items:center;
     border-style: dotted;
-    max-width: 80%;
+    max-width: 90%;
     display:grid;
     grid-template-columns: repeat(3, 2fr); 
   }
