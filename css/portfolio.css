@@ -8,13 +8,6 @@ main{
   border-style: dashed;
 }
 
-.title-web{
-  margin:3% 5%;
-  display: flex;
-  position: realtive;
-  border-style:dashed;
-}
-
 .vid-container{
   display: flex;
   width:100%;
@@ -113,13 +106,10 @@ nav{
   }
 
   .grid-container-web{
+    margin-right:15%;
     display:flex;
-    justify-content:center;
-    align-items:center;
     border-style: dotted;
-    display:grid;
     width:100%;
-    grid-template-columns: repeat(3, 2fr); 
   }
 
 .card-web {
