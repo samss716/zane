@@ -19,7 +19,7 @@ main{
 .grid-container-web{
   display:flex;
   border-style: dotted;
-  margin-right: 5%;
+  margin-right: 15%;
   width:100%;
 }
 
