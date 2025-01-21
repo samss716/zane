@@ -5,6 +5,7 @@ main{
 .title{
   margin:3% 5%;
   position: absolute;
+  border-style: dashed;
 }
 
 .title-web{
