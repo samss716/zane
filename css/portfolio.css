@@ -41,17 +41,7 @@ nav{
   font-size: 1.5em;
 }
 
-.nav-container-web{
-  display:flex;
-  flex-direction:column;
-  width:100%;
-  height:50%;
-  gap:1rem;
-  font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
-  font-size: 2em;
-}
-
-.nav-container, .nav-container-web button {
+.nav-container button {
   width: 100%; /* Ensures buttons take the full width of the container */
   padding: 0.5rem;
   border: none;
@@ -61,7 +51,7 @@ nav{
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
-.nav-container, .nav-container-web button:hover {
+.nav-container button:hover {
   background-color: #ddd; /* Change color on hover*/
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
