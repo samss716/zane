@@ -6,6 +6,7 @@ main{
   margin:3% 5%;
   position: absolute;
   border-style: dashed;
+  font-size: 1.8em;
 }
 
 .vid-container{
