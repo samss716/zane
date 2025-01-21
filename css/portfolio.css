@@ -17,8 +17,8 @@ main{
 .grid-container-web{
   display:flex;
   align-items: center;
-  margin-right: 20%;
-  width:80%;
+  margin-right: 15%;
+  width:100%;
   height: 30%;
   grid-template-columns: repeat(3, 2fr); 
   column-gap: 3rem;
