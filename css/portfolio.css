@@ -6,7 +6,7 @@ main{
   margin:3% 5%;
   position: absolute;
   border-style: dashed;
-  font-size: 1.8em;
+  font-size: 2em;
 }
 
 .vid-container{
@@ -19,7 +19,7 @@ main{
 .grid-container-web{
   display:flex;
   border-style: dotted;
-  margin-right: 25%
+  margin-right: 5%;
   width:100%;
 }
 
