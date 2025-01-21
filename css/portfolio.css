@@ -21,8 +21,10 @@ main{
   border-style: dotted;
   justify-content:center;
   align-items: center;
+  margin-right: 10%
   width:100%;
   grid-template-columns: repeat(3, 2fr); 
+  row-gap: 3rem;
 }
 
 nav{
