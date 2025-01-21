@@ -16,8 +16,7 @@ main{
 
 .grid-container-web{
   display:flex;
-  align-items: center;
-  margin-right: 5%;
+  justify-content: center;
   width:100%;
   height: 30%;
   grid-template-columns: repeat(3, 2fr); 
