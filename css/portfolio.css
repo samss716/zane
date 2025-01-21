@@ -16,9 +16,9 @@ main{
 
 .grid-container-web{
   display:flex;
-  justify-content: center;
+  align-itmes: center;
   border-style:dashed;
-  width:100%;
+  width: 60%;
   height: 30%;
   grid-template-columns: repeat(3, 2fr); 
   column-gap: 3rem;
