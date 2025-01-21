@@ -20,6 +20,8 @@ main{
   display:flex;
   border-style: dotted;
   margin-right: 10%;
+  justify-content:center;
+  align-items: center;
   width:100%;
 }
 
