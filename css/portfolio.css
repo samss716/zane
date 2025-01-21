@@ -41,7 +41,7 @@ nav{
   font-size: 1.5em;
 }
 
-.nav-container{
+.nav-container-web{
   display:flex;
   flex-direction:column;
   width:100%;
