@@ -15,10 +15,12 @@ main{
 }
 
 .grid-container-web{
-    display:flex;
-    border-style: dotted;
-    width:100%;
-  }
+  display:flex;
+  border-style: dotted;
+  margin-left: 15%;
+  margin-right: 15%
+  width:100%;
+}
 
 nav{
   margin-top: 15%;
