@@ -6,7 +6,7 @@
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
-  scrollbar-width: none;
+  scrollbar-width: 50%;
 }
 
 .gallery::-webkit-scrollbar {
@@ -40,7 +40,7 @@
   max-inline-size: 25rem;
   aspect-ratio: 16 / 9;
   font-size: 2rem;
-  background: hotpink;
+  background: green;
   border-radius: 4px;
   overflow: hidden;
 }
