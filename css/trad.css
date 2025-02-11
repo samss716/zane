@@ -1,12 +1,26 @@
+.content {
+  display: grid;
+  grid-template-columns:
+    [full-start] 1fr
+    [content-start]
+    min(var(--content-max-width), 100% - var(--space-md) * 2)
+    [content-end]
+    1fr [full-end];
+}
+
+.content > * {
+  grid-column: content;
+}
+
 .gallery {
   grid-column: full;
   display: grid;
   grid-template-columns: inherit;
-  padding-block: var(--space-md);
+  padding-block: var(--gap);
   overflow-x: scroll;
   overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
-  scrollbar-width: 50%;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
 }
 
 .gallery::-webkit-scrollbar {
