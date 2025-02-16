@@ -3,7 +3,7 @@
   grid-template-columns:
     [full-start] 1fr
     [content-start]
-    min(var(--content-max-width), 100% - var(--space-md) * 2)
+   /* min(var(--content-max-width), 100% - var(--space-md) * 2) */
     [content-end]
     1fr [full-end];
 }
