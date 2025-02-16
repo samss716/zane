@@ -6,8 +6,8 @@
         }
 .scroll-item {
             display: inline-block;
-            width: 200px;
-            height: 100px;
+            width: auto;
+            height: auto;
             background-color: #f0f0f0;
             margin-right: 10px;
         }
