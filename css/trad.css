@@ -3,7 +3,6 @@
             overflow-x: auto;
             white-space: nowrap;
             border: 1px solid #ccc;
-            margin-left:30%;
         }
 .scroll-item {
             display: inline-block;
