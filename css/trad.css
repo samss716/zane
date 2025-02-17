@@ -1,3 +1,6 @@
+.nav!{
+display:flex;
+}
 .scroll-container {
             margin-left:400px;
             width: auto;
