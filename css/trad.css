@@ -1,5 +1,5 @@
 .scroll-container {
-            width: auto;
+            width: 500px;
             overflow-x: auto;
             white-space: nowrap;
             border: 1px solid #ccc;
