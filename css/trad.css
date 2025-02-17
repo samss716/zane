@@ -2,7 +2,7 @@ nav{
   margin-top: 15%;
   margin-left: 4%;
   width:15%;
-  position: inline-block;
+  position: flex;
 }
 
 .nav-container{
@@ -35,7 +35,7 @@ nav{
             border: 1px solid #ccc;
         }
 .scroll-item {
-            display: inline-block;
+            display: flex;
             width: 35%;
             height: 35%;
             background-color: #f0f0f0;
