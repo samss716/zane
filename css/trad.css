@@ -1,6 +1,6 @@
 .scroll-container {
             margin-left:400px;
-            width: auto;
+            width: 2000px;
             overflow-x: auto;
             white-space: nowrap;
             border: 1px solid #ccc;
