@@ -1,12 +1,8 @@
-.main-content {
-  display: flex;
-  justify-content: flex-start;  /* Keeps the elements aligned to the left */
-}
 
 nav{
   margin-top: 15%;
   margin-left: 4%;
-  width:15%;
+  width:35%;
   position: flex;
 }
 
