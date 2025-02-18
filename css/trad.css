@@ -1,3 +1,8 @@
+.main-content {
+  display: flex;
+  justify-content: flex-start;  /* Keeps the elements aligned to the left */
+  padding-left: 20%;  /* Adjust this value to shift the scroll menu more to the right */
+}
 
 .scroll-container {
             display: inline-block;
