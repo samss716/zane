@@ -1,34 +1,4 @@
 
-nav{
-  margin-top: 15%;
-  margin-left: 4%;
-  width:20%;
-  position: flex;
-}
-
-.nav-container{
-  display:flex;
-  flex-direction:column;
-  gap:1rem;
-  font-family:"Neucha", cursive, 'Courier New', Courier, monospace;
-  font-size: 1.5em;
-}
-
-.nav-container button {
-  width: 100%; /* Ensures buttons take the full width of the container */
-  padding: 0.5rem;
-  border: none;
-  background-color: #f0f0f0; /* Add a background color for styling */
-  cursor: pointer;
-  text-align: center;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.nav-container button:hover {
-  background-color: #ddd; /* Change color on hover*/
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
 .scroll-container {
             display: inline-block;
             width: 100%;
