@@ -1,11 +1,12 @@
-
+.grid{
+            margin-left: 15%;
+}
 .scroll-container {
             display: inline-block;
             width: 100%;
             overflow-x: auto;
             white-space: nowrap;
             border: 1px solid #ccc;
-            margin-left:200px;
         }
 .scroll-item {
             width: 30%;
