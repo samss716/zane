@@ -7,15 +7,31 @@
     position: relative;
 }
 .scroll-container {
+    /*
             display: inline-block;
             width: 100%;
             overflow-x: auto;
             white-space: nowrap;
             border: 1px solid #ccc;
+    */
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-snap-type: x mandatory;
+    width: 150%; /* Allows scrolling space */
+    max-width: none;
+    position: absolute;
+    left: 50%; /* Starts the container from the middle */
+    transform: translateX(-50%); /* Centers it properly */
         }
 .scroll-item {
+    /*
             width: 30%;
             height: 30%;
             background-color: #f0f0f0;
             margin-right:10px;
+    */
+    width: 30vw; /* Keeps items responsive */
+    height: auto;
+    margin-right: 10px;
         }
