@@ -23,7 +23,7 @@
     position: absolute;
     left: 50%; /* Starts the container from the middle */
     transform: translateX(-50%); /* Centers it properly */
-        }
+}
 .scroll-item {
     /*
             width: 30%;
