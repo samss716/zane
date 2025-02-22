@@ -16,7 +16,7 @@ nav {
   flex-direction: column;
   gap: 1rem;
   font-family: "Neucha", cursive, 'Courier New', Courier, monospace;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 .nav-container button {
