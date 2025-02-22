@@ -10,8 +10,8 @@ main{
 
 .vid-container{
   display: flex;
-  width:75%;
-/*  margin-right: 15%; */
+  width:60%;
+  margin-right: 15%;
 }
 
 .grid-container-web{
