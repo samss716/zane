@@ -8,9 +8,10 @@ nav {
   margin-top: 15%;
   margin-left: 4%;
   width: 15%;
-  height: calc(100vh - 90px);
   position: flex;
 }
+
+
 
 .nav-container {
   display: flex;
