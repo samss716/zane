@@ -1,6 +1,7 @@
 .grid{
-    display: flex;
+  /*  display: flex; 
     justify-content: flex-start;  /* Ensures content starts where we position it */
+    */
     align-items: center;
     height: 100vh;
     overflow: hidden; /* Prevents unwanted scrolling */
