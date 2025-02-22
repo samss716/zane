@@ -8,6 +8,12 @@ main{
   font-size: 2em;
 }
 
+.vid-grid{
+  display:flex;
+  width: 60%;
+  height: 30%;
+}
+
 .vid-container{
   display: flex;
   width:75%;
