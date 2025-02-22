@@ -3,14 +3,11 @@
   width: 75%; /* Takes the remaining space */
   padding: 20px;
   margin-left:15px;
-  /*
-    justify-content: flex-start;  /* Ensures content starts where we position it */
-  
     align-items: center;
     height: 100vh;
     overflow: hidden; /* Prevents unwanted scrolling */
-    position: relative;
-  */
+/*    position: relative; */
+  
 }
 
 .scroll-container {
