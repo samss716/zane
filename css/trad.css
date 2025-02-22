@@ -1,5 +1,5 @@
 .grid{
-  display: flex; 
+  display: inline-box; 
   /*
     justify-content: flex-start;  /* Ensures content starts where we position it */
   
