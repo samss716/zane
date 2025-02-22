@@ -8,6 +8,7 @@ nav {
   margin-top: 15%;
   margin-left: 4%;
   width: 15%;
+  height: calc(100vh - 50px);
   position: flex;
 }
 
