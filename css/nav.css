@@ -2,6 +2,7 @@
     display: flex;
     width: 100%;
     min-height: 100vh; /* Adjust based on header height */
+    align-items: flex-start;
 }
 
 nav {
