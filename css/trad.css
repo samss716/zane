@@ -19,7 +19,7 @@
             overflow-x: auto;
             white-space: nowrap;
             scrollbar-color:pink;
-            scrollbar-width: thin;
+            scrollbar-width: 10px;
     /*
     display: flex;
     overflow-x: auto;
