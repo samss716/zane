@@ -9,8 +9,8 @@ nav {
   margin-top: 15%;
   margin-left: 4%;
   width: 15%;
-  min-width: 150px;
-  flex-shrink: 0;
+/*  min-width: 150px;
+  flex-shrink: 0; */
 }
 
 .nav-container {
